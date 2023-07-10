@@ -89,8 +89,9 @@ header {
 /* Photo Gallery */
 .media{
     text-align: center;
-    color: ;
-    margin-top: 50px;
+    padding-top: 50px;
+    width: 90%;
+    margin: auto;
 }
 
 
@@ -106,4 +107,33 @@ header {
 .gallery-image{
     width: 300px;
     height: 300px;
+}
+
+/* Subscription */
+
+.contact{
+    width: 80.5%;
+    margin: auto;
+    background-image: url("./asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 200px;
+    text-align: center;
+    padding: 100px 5px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.subscription{
+    width: 70%;
+    margin: auto;
+
+}
+input{
+    padding: 15px;
+    width: 500px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    
 }
