@@ -5,34 +5,30 @@
   padding: 0px;
   font-family: "Lato", sans-serif;
   color: white;
-  font-size: 16px;
 }
 
-.btn{
-padding: 15px 35px;
-background-color: #E55473;
-border-radius: 5px;
-border: none;
+.btn {
+  padding: 15px 35px;
+  background-color: #e55473;
+  border-radius: 5px;
+  border: none;
 }
 
+.primary-color {
+  color: #e55473;
+}
 /* Banner */
 
 header {
-  background: rgba(229, 84, 115, 0.10);;
   margin-top: 0px;
 }
 .banner-container {
+  background: rgba(229, 84, 115, 0.1);
   display: flex;
-  gap: 90px;
+  gap: 70px;
   align-items: center;
   justify-content: space-between;
   padding: 0px 150px;
-
-  /* padding: 30px 30px 0px 230px;
-  display: flex;
-
-  align-items: center;
-  justify-content: space-between; */
 }
 
 .banner-pic {
@@ -41,22 +37,16 @@ header {
   margin: 35px 15px 0px 0px;
   padding-bottom: 0px;
   background-attachment: fixed;
-
-  /* width: 650px;
-  height: 730px;
-  margin-right: 15px;
-  background-attachment: fixed; */
 }
 
-.banner-content{
-    margin-top: 100px;
-    padding: 10px;
+.banner-content {
+  margin-top: 100px;
+  padding: 10px;
 }
 .banner-headline {
   color: #272727;
   font-size: 60px;
   font-weight: 800;
-  
 }
 
 .banner-description {
@@ -67,4 +57,31 @@ header {
   margin-top: 25px;
   margin-bottom: 25px;
   width: 90%;
+}
+
+/* Hot Deals */
+.hot-deals-container {
+  padding: 70px 260px;
+  background: rgba(229, 84, 115, 0.07);
+}
+.hot-deals {
+  margin: auto;
+  text-align: center;
+  
+}
+
+.hot-deals-headline {
+  font-size: 30px;
+  margin-bottom: 20px;
+  
+}
+
+.hot-deals-description {
+  width: 95%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.hot-deals-pic {
+  width: 238px;
+  height: 320px;
 }
