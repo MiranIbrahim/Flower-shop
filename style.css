@@ -67,13 +67,11 @@ header {
 .hot-deals {
   margin: auto;
   text-align: center;
-  
 }
 
 .hot-deals-headline {
   font-size: 30px;
   margin-bottom: 20px;
-  
 }
 
 .hot-deals-description {
@@ -87,53 +85,83 @@ header {
 }
 
 /* Photo Gallery */
-.media{
-    text-align: center;
-    padding-top: 50px;
-    width: 90%;
-    margin: auto;
+.media {
+  text-align: center;
+  padding-top: 50px;
+  width: 90%;
+  margin: auto;
 }
 
-
-.photo-gallery{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 50px 250px;
-    padding-top: 20px;
-    gap: 20px;
+.photo-gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 250px;
+  padding-top: 20px;
+  gap: 20px;
 }
 
-.gallery-image{
-    width: 300px;
-    height: 300px;
+.gallery-image {
+  width: 300px;
+  height: 300px;
 }
 
 /* Subscription */
 
-.contact{
-    width: 80.5%;
-    margin: auto;
-    background-image: url("./asset/Rectangle\ 9.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-bottom: 200px;
-    text-align: center;
-    padding: 100px 5px;
-    margin-top: 50px;
-    border-radius: 5px;
+.contact {
+  width: 80.5%;
+  margin: auto;
+  background-image: url("./asset/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 100px;
+  text-align: center;
+  padding: 100px 5px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
-.subscription{
-    width: 70%;
-    margin: auto;
+.subscription {
+  width: 70%;
+  margin: auto;
+}
+input {
+  padding: 15px;
+  width: 500px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
 
+/* Footer */
+
+footer {
+  background: #111010;
+  text-align: center;
+  padding: 90px 300px;
 }
-input{
-    padding: 15px;
-    width: 500px;
-    border: none;
-    border-radius: 5px;
-    margin-right: 10px;
-    
+
+.footer-headline {
+  font-size: 35px;
+  font-weight: 800;
+  color: white;
+}
+
+.footer-description {
+    font-size: 13px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 2;
+}
+.copyright{
+    font-size: 30px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 12px;
+    font-weight: 80;
 }
