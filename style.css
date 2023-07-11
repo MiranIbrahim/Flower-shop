@@ -203,7 +203,7 @@ footer {
   align-items:center;
   background-repeat: no-repeat;
   background-position: top,center;
-  padding: 40px;
+  padding: 20px;
   margin-top: 50px;
   /* background-color: rgba(8, 218, 218, 0.075); */
 }
@@ -218,6 +218,7 @@ li{
   list-style-position:inherit;
   line-height: 1.8;
   text-align: justify;
+  font-size: 16px;
 }
 .info-headline{
   margin-top: 20px;
@@ -236,6 +237,6 @@ li{
 
 .info-bg{
   /* background-color: rgba(112, 223, 223, 0.075);  */
-  padding-bottom: 30px;
+  padding-bottom: 70px;
   background: rgba(229, 84, 115, 0.07);
 }
