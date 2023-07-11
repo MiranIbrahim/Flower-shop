@@ -37,13 +37,14 @@
 }
 
 .banner-content {
-  margin-top: 10px;
+  margin-top: 0px;
   padding: 10px;
 }
 .banner-headline {
   color: #272727;
   font-size: 50px; /*  here is faced banner-pic responsive problem */
   font-weight: 800;
+  padding-right: 90px;
 }
 
 .banner-description {
