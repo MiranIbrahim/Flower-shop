@@ -19,24 +19,21 @@
 }
 /* Banner */
 
-header {
-  margin-top: 0px;
+.header {
+  background-color: rgba(229, 84, 115, 0.1);
 }
 .banner-container {
-  background: rgba(229, 84, 115, 0.1);
   display: flex;
+  align-items: center;
   gap: 70px;
   justify-content: space-between;
-  align-items: center;
-  padding: 0px 150px;
+  
+  padding: 30px 30px 0px 150px;
 }
 
 .banner-pic {
-  height: 590px;
-  width: 480px;
-  margin: 35px 15px 0px 0px;
-  padding-bottom: 0px;
-  background-position: bottom left;
+  width: 500px;
+  height: 600px;
 }
 
 .banner-content {
@@ -45,7 +42,7 @@ header {
 }
 .banner-headline {
   color: #272727;
-  font-size: 60px;
+  font-size: 50px; /*  here is faced banner-pic responsive problem */
   font-weight: 800;
 }
 
@@ -53,7 +50,7 @@ header {
   color: rgba(39, 39, 39, 0.6);
   font-size: 13px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 15px; /*  here is faced banner-pic responsive problem */
   margin-top: 25px;
   margin-bottom: 25px;
   width: 90%;
@@ -160,6 +157,7 @@ input {
   border: none;
   border-radius: 5px;
   margin-right: 10px;
+  color: #111010;
 }
 
 /* Footer */
@@ -205,7 +203,6 @@ footer {
   background-position: top,center;
   padding: 20px;
   margin-top: 50px;
-  /* background-color: rgba(8, 218, 218, 0.075); */
 }
 
 ul{
@@ -232,11 +229,9 @@ li{
   text-align: center;
   margin-top: 80px;
   padding-left: 30px;
-  /* background-color: rgba(8, 218, 218, 0.075); */
 }
 
 .info-bg{
-  /* background-color: rgba(112, 223, 223, 0.075);  */
   padding-bottom: 70px;
   background: rgba(229, 84, 115, 0.07);
 }
